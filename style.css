@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(2, 2, 23);
+    color: aliceblue;
+    font-family: 'Signika Negative', 'sarif';
+}
+
+
+.navlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(9, 9, 35);
+    position: fixed;
+    top: 0;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+.left {
+    margin-left: 30px;
+}
+
+.right {
+    margin-right: 70px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: rgb(127, 127, 240);
+
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 160px 0;
+    padding-top: 80px;
+
+}
+
+.first div {
+    width: 40%;
+}
+
+.leftsection {
+
+    background-color: rgb(1, 1, 22);
+
+}
+
+.hi {
+    color: rgb(229, 132, 242);
+    font-size: 4rem;
+    margin: 0 20px;
+
+}
+
+.it {
+    color: rgb(229, 231, 232);
+    font-size: 3.5rem;
+    margin: 30px 0;
+    margin-left: 20px;
+
+}
+
+.subash {
+    color: rgb(183, 238, 138);
+    font-size: 3rem;
+    margin: 30px 0;
+
+}
+
+.web {
+    color: aliceblue;
+    margin: 0 20px;
+    font-size: 2rem;
+}
+
+.home1 {
+    margin-left: 20px;
+    font-size: 2rem;
+    color: rgb(175, 100, 246);
+}
+
+.rightsection img {
+    width: 50%;
+    height: 60%;
+
+}
+
+.fg {
+    padding: 5px;
+}
+
+.fg {
+    background-color: rgb(136, 136, 239);
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+    margin-left: 18px;
+}
+
+.bold-line1 {
+    height: 2px;
+    border: 0;
+    background-color: aliceblue;
+    margin: 40px 85px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px 0;
+    padding: 80px;
+
+}
+
+
+
+
+.section2first {
+    background-color: rgb(1, 1, 22);
+    width: 50%;
+
+
+}
+
+.topic {
+    color: rgb(200, 241, 150);
+    font-size: 3rem;
+    margin: 0 30px;
+    margin-left: 200px;
+}
+
+.para {
+    font-size: 1.25rem;
+    margin: 30px 150px;
+}
+
+.section2second {
+    margin-left: 200px;
+    width: 40%
+}
+
+.topic2 {
+    color: rgb(200, 241, 150);
+    font-size: 3rem;
+    margin: auto;
+}
+
+.text {
+    margin-top: 30px;
+    font-size: 1.25rem;
+}
+
+.top2 {
+    text-align: center;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.section3 {
+    width: 60%;
+    font-size: 1.2rem;
+    margin: auto;
+}
+
+.bold-line2 {
+    height: 2px;
+    border: 0;
+    background-color: aliceblue;
+    margin: 85px;
+
+}
+
+.third {
+
+    margin: 110px 60px;
+    padding: 80px;
+
+}
+
+.topic3 {
+    text-align: center;
+    font-size: 3rem;
+    color: aquamarine;
+}
+
+.main {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.main div {
+    width: 40%;
+}
+
+.para1 {
+    margin: 20px 0;
+    margin-left: 60px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    text-align: left;
+
+}
+
+.para2 img {
+    width: 60%;
+    height: 70%;
+}
+
+.bold-line3 {
+    height: 2px;
+    border: 0;
+    background-color: aliceblue;
+    margin: 110px;
+    padding-top: 60px;
+}
+
+.form-container {
+    padding: 80px;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgb(75, 54, 54);
+    width: 100%;
+    max-width: 55%;
+    margin: auto;
+
+}
+
+.heads {
+    margin: 80px 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: rgb(248, 215, 171);
+    margin-bottom: 6px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e38b8b;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #020c35;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a380f5;
+    ;
+}
+
+footer {
+    background-color: #5ba7d3;
+    color: white;
+    padding: 20px 0;
+    margin-top: auto;
+    margin: 10px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.burger {
+    position: absolute;
+    cursor: pointer;
+    display: none;
+    right: 5%;
+    top: 15px;
+
+}
+
+.line {
+    width: 33px;
+    background-color: azure;
+    height: 4px;
+    margin: 5px 3px;
+}
+

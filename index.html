@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Portfolio - subash</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="flaticon.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navlist h-nav-resp">
+            <div class="left v-list-resp">Portfolio- Subash</div>
+            <div class="right">
+                <ul class="navbar v-list-resp">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="first">
+            <div class="leftsection">
+
+                <div class="hi">Hi, </div>
+                <span class="it">It's me </span>
+                <span class="subash"> Mr. Subash</span>
+                <div class="web">
+                    I am a passoniate
+                </div>
+                <span class="home1" id="element"></span>
+                <div id="button1">
+                    <a href="https://www.facebook.com/login.php/"><button class="fg"> Visit Facebook</button></a>
+                    <a href="https://github.com/login"><button class="fg"> Visit Github</button></a>
+
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="subash4.jpeg">
+            </div>
+        </section>
+
+        <hr class="bold-line1">
+        <section id="about" class="secondmain">
+            <div class="second">
+                <div class="section2first">
+                    <div class="topic">About</div>
+                    <div class="para">
+                        <p>Hello, I’m Subash Chhetri, a versatile professional with expertise in web development, web
+                            design, app development, and graphics design. As a web developer, I build responsive and
+                            dynamic websites using HTML, CSS, JavaScript, and React. I also design visually appealing
+                            and user-friendly interfaces as a web designer, leveraging tools like Figma and Adobe XD.
+                            Additionally, I develop cross-platform mobile applications as an app developer, using
+                            Flutter and Firebase to create innovative solutions. Lastly, as a graphics designer, I craft
+                            compelling visual content for branding and marketing using Photoshop and Illustrator. My
+                            passion lies in blending creativity with technology to deliver seamless digital experiences.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section2second">
+                    <div class="topic2">Technical Skills:</div>
+
+
+                    <div class="text">
+                        <ul>
+                            <li> Front-End Development: HTML, CSS, JavaScript, React, Vue.js, Bootstrap, Tailwind CSS
+                            </li>
+                            <li>Back-End Development: Node.js, Express, PHP, Python (Django/Flask)</li>
+                            <li>Databases: MySQL, MongoDB, Firebase</li>
+                            <li>Tools & Platforms: Git, GitHub, VS Code, Figma, WordPress, Webpack</li>
+                            <li>Other Skills: Responsive Design, REST APIs, Agile Methodologies, SEO Optimization</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="top2">Moreover....</div>
+                <p class="section3">
+                    When I'm not coding, I enjoy contributing to open-source projects, writing tech blogs, and exploring
+                    new frameworks and libraries. I believe in continuous learning and strive to stay updated with the
+                    latest trends in web development.
+
+                </p>
+            </div>
+        </section>
+        <hr class="bold-line2">
+        <section id="services" class="third">
+            <h3 class="topic3">
+                Services
+            </h3>
+            <div class="main">
+                <div class="para1">
+                    <ul>
+                        <li>Front-End Development</li>
+                        <li>Back-End Development</li>
+                        <li>Web Application Development</li>
+                        <li>Maintenance and Updates</li>
+                        <li>UI/UX Design</li>
+                        <li>Wireframing and Prototyping</li>
+                        <li>Mobile App Development</li>
+                        <li>App Store Deployment</li>
+                        <li>Logo Design</li>
+                        <li>Digital Graphics</li>
+                        <li>Print Design</li>
+
+                    </ul>
+                </div>
+                <div class="para2">
+                    <img src="wb.jpg">
+                </div>
+            </div>
+
+
+        </section>
+
+        <hr class="bold-line2">
+
+        <section id="contact" class="form-container">
+            <h2 class="heads">Contact Us</h2>
+
+            <form action="/submit" method="post">
+                <div class="form-group">
+                    <label for="name">Enter Your Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Eg.: Hari Chhetri" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Enter Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="harichhetri@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Enter your password</label>
+                    <input type="password" id="password" name="password" placeholder="hari@123" minlength="8" required>
+                    <small>Password must be at least 8 characters long.</small>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Choose Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="terms" required> I agree to the terms and conditions
+                    </label>
+                </div>
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </section>
+        <footer>
+            <div class="footer-bottom">
+                <p> Portfolio-Subash &copy; 2025 . All rights reserved.</p>
+            </div>
+        </footer>
+
+
+    </main>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'App Developer', 'Web Designer', 'Graphics Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="resp.js"></script>
+</body>
+
+</html>
