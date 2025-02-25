@@ -1,7 +1,8 @@
 @media only screen and (max-width: 1509px) {
-    body{
+    body {
         font-size: 18px;
     }
+
     .navlist {
         flex-direction: column;
         transition: all 0.8s ease-out;
@@ -12,6 +13,10 @@
     .navbar {
         flex-direction: column;
 
+    }
+
+    .navbar li {
+        padding: 10px;
     }
 
     .left {
@@ -34,6 +39,24 @@
     .v-list-resp {
         opacity: 0;
     }
+    .hi{
+        font-size: 30px;
+    }
+    .it{
+        font-size: 28px;
+    }
+    .subash{
+        font-size: 30px;
+    }
+    .web{
+        font-size: 28px;
+    }
+    #element{
+        font-size: 30px;
+    }
+    .fg{
+        font-size: 18px;
+    }
 
     .first {
         flex-direction: column-reverse;
@@ -42,20 +65,33 @@
 
     .second {
         flex-direction: column;
+       
     }
 
     .para {
+        padding-top: 20px;
+        margin: auto;
         width: 90%;
         text-align: center;
+        font-size: 35px;
     }
 
     .text {
         width: 90%;
-        text-align: left;
+        margin: auto;
+        font-size: 28px;
     }
-
+    .top2, .section3{
+        margin: auto;
+        font-size: 28px;
+    }
     .topic {
+        margin: auto;
+        font-size: 4rem;
         text-align: center;
+    }
+    .section2second{
+        padding-top: 40px;
     }
 
     .topic2 {
@@ -67,8 +103,115 @@
         margin: auto;
         margin-left: 20px;
     }
-    .para2 img{
+
+    .para2 img {
         width: 100%;
         height: 100%
     }
+    .topic3{
+        margin:auto;
+        font-size: 4rem;
+    }
+    .para1{
+        font-size: 30px;
+        padding-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    
+
+    .navlist {
+        flex-direction: column;
+        transition: all 0.10s ease-out;
+        height: 200px;
+
+    }
+
+    .navbar {
+        flex-direction: column;
+
+    }
+
+    .navbar li {
+        padding: 10px;
+    }
+
+    .left {
+        text-align: center;
+
+    }
+
+    .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 50px;
+    }
+
+    .v-list-resp {
+        opacity: 0;
+    }
+    .hi{
+        font-size: 16px;
+    }
+    .it{
+        font-size: 13px;
+    }
+    .subash{
+        font-size: 16px;
+    }
+    .web{
+        font-size: 13px;
+    }
+    #element{
+        font-size: 18px;
+    }
+    .fg{
+        font-size: 13px;
+    }
+    .topic{
+        margin:auto;
+        font-size: 28px;
+    }
+    .para{
+        margin:auto;
+        font-size: 18px;
+        padding-top: 10px;
+        width:100%;
+    }
+    .section2second{
+        margin: auto;
+        padding-top: 80px;
+    }
+    .topic2{
+        
+        font-size: 28px;
+        
+    }
+    .text{
+        font-size: 18px;
+    }
+    .third{
+        margin:auto;
+    }
+    .topic3{
+        font-size: 35px;
+    }
+    .para1{
+        font-size: 18px;
+        padding-right: 20px;
+    }
+    .para2 img{
+        width: 100%;
+        height:100%;
+    }
+   
+
 }
